@@ -1,0 +1,22 @@
+[
+  {
+    "trainId": "TRAIN123",
+    "trainName": "Rajdhani Express",
+    "seats": [[1, 0, 1], [0, 1, 1], [1, 1, 0]],
+    "schedule": {
+      "Delhi": "2024-12-20T07:30:00",
+      "Mumbai": "2024-12-20T20:30:00"
+    },
+    "stations": ["Delhi", "Agra", "Bhopal", "Mumbai"]
+  },
+  {
+    "trainId": "TRAIN456",
+    "trainName": "Shatabdi Express",
+    "seats": [[1, 1, 1], [1, 0, 1], [0, 0, 1]],
+    "schedule": {
+      "Chandigarh": "2024-12-21T09:00:00",
+      "Delhi": "2024-12-21T12:00:00"
+    },
+    "stations": ["Chandigarh", "Ambala", "Panipat", "Delhi"]
+  }
+]

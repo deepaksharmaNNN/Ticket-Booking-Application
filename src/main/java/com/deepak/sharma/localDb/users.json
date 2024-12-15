@@ -1,0 +1,25 @@
+{
+  "userId": "U12345",
+  "name": "Deepak Sharma",
+  "password": "password123",
+  "hashedPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
+  "ticketsBooked": [
+    {
+      "ticketId": "TICKET001",
+      "userId": "U12345",
+      "source": "Delhi",
+      "destination": "Mumbai",
+      "dateOfJourney": "2024-12-20T08:00:00",
+      "train": {
+        "trainId": "TRAIN123",
+        "trainName": "Rajdhani Express",
+        "seats": [[1, 0, 1], [0, 1, 1], [1, 1, 0]],
+        "schedule": {
+          "Delhi": "2024-12-20T07:30:00",
+          "Mumbai": "2024-12-20T20:30:00"
+        },
+        "stations": ["Delhi", "Agra", "Bhopal", "Mumbai"]
+      }
+    }
+  ]
+}
